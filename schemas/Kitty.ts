@@ -16,6 +16,7 @@ const kittySchema = new mongoose.Schema<IKitty, KittyModel, IKittyMethods>({
     require: true,
   },
 });
+
 kittySchema.methods.speak = function speak() {
   const greeting = this.name
     ? "Meow name is " + this.name

@@ -114,3 +114,5 @@ user.setAge = new Date("1990-05-15"); // Setting the birth date
 console.log(user.age); // Outputs the calculated age based on the birth date
 console.log(user.birthDate); // Outputs: 1990-05-15
 ```
+
+## How to make them type safe?
